@@ -1,0 +1,91 @@
+body{
+    background-color: #01051e;
+}
+.w-20{
+    color:#ff7d3b ;
+}
+.flex li a:hover{
+    color: #ff7d3b;
+    transition: all ease-in .2s;
+}
+.rounded-md{
+    background-color: #ff7d3b;
+}
+.rounded-md:hover{
+    background-color: white;
+    transition: all ease-in .2s;
+    color: #ff7d3b;
+
+
+}
+.inset-0{
+    background-color:#010417 ;
+}
+.w-80{
+    background-color:#A427DF ;
+}
+.bottom-10{
+    background-color: #ff7d3b;
+}
+#features{
+    background-color: #020726;
+}
+.border-1:hover{
+   background-color: #010417;
+   transition: all ease-in .2s;
+}
+#lock{
+    padding-top: 20px;
+}
+.relative{
+  
+}
+#how-it-works{ 
+    background-color:#020726 ;
+}
+.rounded-lg{
+    background-color:#ff7d3b ;
+    transition: all ease-in .2s;
+}
+.user-pic.active-pic{
+    border: 2px solid #ff7d3b;
+}
+.user-text{
+    display: none;
+}
+.user-text.active-text {
+    display: block;
+    animation: moveup 1s line forwards;
+}
+.user-pic{
+    transition: all 0.2s ease;
+}
+
+@keyframes moveup {
+    0% {
+        margin-top: 40px;
+        opacity: 0;
+    }
+
+    50% {
+        margin-top: 20px;
+        opacity: 0.1;
+    }
+
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+.arman{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+:root{
+  
+    --black-color:#090630;
+    
+
+
+}
