@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="text-white tracking-wider px-2">
+    <header class="px-2 sticky top-0 z-50">
+        <nav class="container mx-auto  flex justify-between items-center">
+            <div class="w-20 py-5 font-bold text-3xl">
+                <a href="#home"><span class="text-white">Light</span>Code.</a>
+            </div>
+            <div>
+                <ul class="flex items-center space-x-6 hidden lg:flex">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonial">Testimonial</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <li><button class="px-9 py-3 rounded-md capitailize font-bold ">Free trial</button></li>
+                </ul>
+            </div>
+
+            <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+               <div id="menu" class=" hidden h-[100vh] absolute inset-0">
+                  <ul class="h-full grid place-items-center py-20">
+                    <li><a id="hLink" href="">Home</a></li>
+                    <li><a id="hLink" href="#features">Features</a></li>
+                    <li><a      href="#testimonial" id="hLink">Testimonial</a></li>
+                    <li><a id="hLink" href="#pricing">Pricing</a></li>
+                    <li><a id="hLink" href="#blog">Blog</a></li>
+                    <li><a id="hLink" href="#contact">Contact</a></li>
+
+                    <li><button class="px-9 py-3 rounded-md capitailize font-bold ">Free trial</button></li>
+                </ul>
+               </div>
+
+        </nav>
+    </header>
+
+
+
+    <section id="home" class="px-2 relative" >
+
+        <div class="w-80 h-80 absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+        <div class="w-80 h-80 absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+
+        <div class="container py-20 mx-auto">
+            <div class="flex flex-col items-center z-20 md:flex-row">
+                <div class="text-center mb-12 md:text-left md:w1/2 md:pr-10">
+                    <h1 class="text-3xl md:text-4xl font-bold leading-snug mb-4">Awesome App for Your Financial.</h1>
+                    <p class="leading-relaxed mb-10">This should be used to tell a story and let your users know little  more about app and it's use.How can benefit them</p>
+
+                    <button class="px-9 py-3 rounded-md capitailize font-bold ">Download App</button>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="photo/hero4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="features" class="" >
+        <div class="container mx-auto py-20">
+            <div class="text-center m-auto mb-20 md:w-1/2">
+                <h4 class="font-bold text-amber-500 mb-4">Our Feature</h4>
+                <h1 class="text-3xl md:text-4xl font-bold leading-snug">Easy To Manage Your All Payments By Our App</h1>
+            </div>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12 lg-8 px-4 sm:px-6 lg:px-8 ">
+                <div class="border-1 border-solid border-color-gray text-center leading-relaxed px-5 rounded-2xl cursor-pointer py-20">
+                    <div class="bg-amber-500 inline-block rounded-2xl py-5 px-6">
+                        <i class="fa-solid fa-calendar-days text-4xl "></i>
+                    </div>
+                    <h3 class="text-xl font-bold" id="lock">Expance Trackering</h3>
+                    <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+                </div>
+                <div class="border-1 border-solid border-color-gray text-center leading-relaxed px-5 rounded-2xl cursor-pointer py-20">
+                    <div class="bg-amber-500 inline-block rounded-2xl py-5 px-6">
+                        <i class="fa-solid fa-money-bill-trend-up text-4xl "></i>
+                    </div>
+                    <h3 class="text-xl font-bold" id="lock">Finance Snapshot</h3>
+                    <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+                </div>
+                <div class="border-1 border-solid border-color-gray text-center leading-relaxed px-5 rounded-2xl cursor-pointer py-20">
+                    <div class="bg-amber-500 inline-block rounded-2xl py-5 px-6">
+                        <i class="fa-solid fa-phone-volume text-4xl "></i>
+                    </div>
+                    <h3 class="text-xl font-bold" id="lock">Support 24 Hours</h3>
+                    <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="saving-money">
+          
+
+        <div class="container mx-auto py-20 relative">
+
+            <div class="w-80 h-80 absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+        <div class="w-80 h-80 absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+
+            <div class="flex flex-col items-center justify-between md:flex-row">
+                <div class="mb-12 md:w-1/2">
+                    <img src="photo/hero3.png" alt="">
+                </div>
+                <div class="text-center md:text-left md:w-1/2 md:ml-20">
+                    <h4 class="font-bold text-amber-500 mb-4">Saving Money</h4>
+                <h1 class="text-3xl md:text-4xl font-bold leading-snug mb-4">Best Financing App To Save Your Money</h1>
+                <p class="leading-relaxed ">Best financing app ever in the world.Easy to use and very user friendly for mobile banking.You can control your card easily and send money some one just one click</p>
+                   <button class="px-9 py-3 rounded-md capitailize font-bold mt-4">Read More</button>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+   <section id="how-it-works" class="">
+    <div class="container mx-auto py-20">
+       <div class="text-center m-auto mb-20 md:1/2">
+         <h4 class="font-bold text-amber-500 mb-4">How It Works</h4>
+                <h1 class="text-3xl md:text-4xl font-bold leading-snug">Grow Up YOur Money Saving</h1>
+       </div>
+
+       <div class="flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0 md:space-x-6">
+        <div class="text-center cursor-pointer">
+            <div class="relative inline-block px-6 py-3 rounded-lg cursor-pointer">
+                <p class="text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url('photo/line.png')] lg:after:absolute  lg:after:top-4 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">1</p>
+            </div>
+         <h3 class="text-xl font-bold" id="lock">Install The App</h3>
+                    <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+        </div>
+
+         <div class="text-center cursor-pointer">
+            <div class="relative inline-block px-6 py-3 rounded-lg cursor-pointer">
+                 <p class="text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url('photo/line.png')] lg:after:absolute  lg:after:top-4 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">2</p>
+            </div>
+         <h3 class="text-xl font-bold" id="lock">Setup Your Profile</h3>
+                    <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+        </div>
+
+         <div class="text-center cursor-pointer">
+            <div class="relative inline-block px-6 py-3 rounded-lg cursor-pointer">
+                <p class="text-6xl">3</p>
+            </div>
+         <h3 class="text-xl font-bold" id="lock">Enjoy The Features</h3>
+                    <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+        </div>
+
+
+       </div>
+    </div>
+   </section>
+
+
+
+
+
+   <section id="testimonial">
+     <div class="container mx-auto py-20">
+        <div class="text-center m-auto mb-20 md:1/2">
+         <h4 class="font-bold text-amber-500 mb-4">User Review</h4>
+                <h1 class="text-3xl md:text-4xl font-bold leading-snug">What Clients Say About Our App After Use It</h1>
+       </div>
+
+       <div class="mt-8">
+        <div class="flex items-center justify-center flex-wrap">
+            <img src="photo/user1.jpg" alt="" class="h-20 
+            w-20 rounded-full p-1 m-3 cursor-pointer user-pic active-pic" onclick="showReview()">
+            <img src="photo/user2.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+            <img src="photo/user3.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+            <img src="photo/user4.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+            <img src="photo/user5.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+        </div>
+        <div class="grid place-items-center text-center m-auto md:w1/2 mi-:h-[40vh]">
+            <div class="user-text active-text">
+                <p class="md:text-2xl mb-6">This should be used to tell a story and include any testimonial you might have about your product or service for your clients.</p>
+                <h4 class="font-bold text-amber-500 mb-1">Markin Nesus</h4>
+                <p>IOS Developer</p>
+            </div>
+
+
+             <div class="user-text">
+                <p class="md:text-2xl mb-6">This should be used to tell a story and include any testimonial you might have about your product or service for your clients.</p>
+                <h4 class="font-bold text-amber-500 mb-1">Vara Duncan</h4>
+                <p>Flutter Developer</p>
+            </div>
+
+             <div class="user-text">
+                <p class="md:text-2xl mb-6">This should be used to tell a story and include any testimonial you might have about your product or service for your clients.</p>
+                <h4 class="font-bold text-amber-500 mb-1">Pirtle Karol</h4>
+                <p>Android Developer</p>
+            </div>
+
+             <div class="user-text">
+                <p class="md:text-2xl mb-6">This should be used to tell a story and include any testimonial you might have about your product or service for your clients.</p>
+                <h4 class="font-bold text-amber-500 mb-1">Mark Joe</h4>
+                <p>React Developer</p>
+            </div>
+
+             <div class="user-text">
+                <p class="md:text-2xl mb-6">This should be used to tell a story and include any testimonial you might have about your product or service for your clients.</p>
+                <h4 class="font-bold text-amber-500 mb-1">Laila Domniuc</h4>
+                <p>Angular Developer</p>
+            </div>
+
+
+        </div>
+       </div>
+     </div>
+   </section>
+
+
+
+
+
+
+
+
+<section id="pricing">
+    <div class="container mx-auto py-20">
+          <div class="text-center m-auto mb-20 md:w-1/2">
+                <h4 class="font-bold text-amber-500 mb-4">Pricing</h4>
+                <h1 class="text-3xl md:text-4xl font-bold leading-snug">Get In Reasonable Price </h1>
+            </div>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12 lg-8 px-4 sm:px-6 lg:px-8 ">
+                <div class="border-1 border-solid border-color-gray text-center leading-relaxed px-5 rounded-2xl cursor-pointer py-20">
+                    <div class="inline-block rounded-2xl py- px-6">
+                       <p class="text-amber-500 text-2xl">120$ Per Month</p>
+                    </div>
+                    <h3 class="text-xl font-bold" id="lock">Basic</h3>
+                   <p class="leading-relaxed">For Beginner Who Want To Scate Business Globaly</p>
+                   
+                </div>
+              <div class="border-1 border-solid border-color-gray text-center leading-relaxed px-5 rounded-2xl cursor-pointer py-20">
+                    <div class="inline-block rounded-2xl py- px-6">
+                       <p class="text-amber-500 text-2xl">150$ Per Month</p>
+                    </div>
+                    <h3 class="text-xl font-bold" id="lock">Standard</h3>
+                   <p class="leading-relaxed">For Beginner Who Want To Scate Business Globaly</p>
+                   
+                </div>
+             <div class="border-1 border-solid border-color-gray text-center leading-relaxed px-5 rounded-2xl cursor-pointer py-20">
+                    <div class="inline-block rounded-2xl py- px-6">
+                       <p class="text-amber-500 text-2xl">500$ Per Month</p>
+                    </div>
+                    <h3 class="text-xl font-bold" id="lock">Premium</h3>
+                   <p class="leading-relaxed">For Beginner Who Want To Scate Business Globaly</p>
+                   p
+                </div>
+                
+               
+            </div>
+
+        
+
+    </div>
+</section>
+
+
+
+
+<section id="blog">
+    <div class="container mx-auto py-20">
+        <div class="text-center m-auto mb-20 md-w-1/2">
+            <h4 class="font-bold text-amber-500 mb-4">Innovation And Quality Improvement<h4>
+                <h1 class="text-3xl md:text-4xl font-bold leading-snug">Latest UPdates,Solutions And Company News</h1>
+        </div>
+         <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div>
+            <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                 <img src="photo/blog1.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+            </div>
+            <div>
+                <div class="flex items-center gap-5 py-5">
+                    <p>20 August 2025</p>
+                    <p>1 min read</p>
+                </div>
+                <a href="#blog" class="text-2xl font-bold underline hover:text-amber-500 hover:no-underline">Four ways to cheer yourself up on Blue Monday</a>
+                <p class="leading-relaxed my-5">On the second edition of Serious Business,Inc.editor Jim Ledbetter and Fusion senior editor Salam debate... </p>
+                <a href="#blog" class="inline-block font-bold hover:text-amber-500 transition-all duration-300 ease-in-out">
+                    <span class="tracking-wider capitailize underline hover:no-underline">Read More</span>
+                </a>
+            </div>
+            
+        </div>
+        <div>
+            <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                 <img src="photo/blog2.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+            </div>
+            <div>
+                <div class="flex items-center gap-5 py-5">
+                    <p>20 August 2025</p>
+                    <p>1 min read</p>
+                </div>
+                <a href="#blog" class="text-2xl font-bold underline hover:text-amber-500 hover:no-underline">How to Organize Your Budget for Maximum Productivity</a>
+                <p class="leading-relaxed my-5">Global provider connected products for consumers.And enterprises worldwide.supply chain control is everything... </p>
+                <a href="#blog" class="inline-block font-bold hover:text-amber-500 transition-all duration-300 ease-in-out">
+                    <span class="tracking-wider capitailize underline hover:no-underline">Read More</span>
+                </a>
+            </div>
+            
+        </div>
+        <div>
+            <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                 <img src="photo/blog3.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+            </div>
+            <div>
+                <div class="flex items-center gap-5 py-5">
+                    <p>20 August 2025</p>
+                    <p>1 min read</p>
+                </div>
+                <a href="#blog" class="text-2xl font-bold underline hover:text-amber-500 hover:no-underline">Should Small Business Be Entitled to system</a>
+                <p class="leading-relaxed my-5">Our team provides skilled and experienced managers who know the intricacies of the vertical and focus... </p>
+                <a href="#blog" class="inline-block font-bold hover:text-amber-500 transition-all duration-300 ease-in-out">
+                    <span class="tracking-wider capitailize underline hover:no-underline">Read More</span>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+
+    
+    </div>
+   
+</section> 
+
+
+
+
+<section id="download-app">
+    <div class="container mx-auto py-20 h-[80vh] grid place-items-center">
+      <div class="text-center md:w-2/3 m-auto">
+        <h1 class="text-3xl md:text-4xl font-bold leading-snug">Download App Now And Save Your Money</h1>
+        <p class="leading-relaxed pt-5">Serving an impressive list of long-term money with experience and expertise in multiple industries</p>
+        <div class="flex flex-col md:flex-row items-center justify-center gap-5 pt-10">
+            <a href="" class="arman bg-white h-16 w-44 grid place-items-center rounded-lg hover:opacity-70">
+                <img src="photo/ios-store-dark.png" alt="">
+            </a>
+             <a href="" class="arman bg-white h-16 w-44 grid place-items-center rounded-lg hover:opacity-70">
+                <img src="photo/g-play-dark.png" alt="">
+            </a>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<section id="contact">
+    <div class="container mx-auto py-20">
+        <div class="text-center m-auto mb-20 md:w1/2">
+            <h4 class="font-bold text-amber-500 mb-4">Have A Question</h4>
+            <h1 class="text-3xl md:text-4xl font-bold leading-snug">Get In Touch</h1>
+        </div>
+        <form action="">
+            <div class="w-full m-auto text-center md:w2/3">
+                <div class="text-slate-950 grid gap-6 mb-6 md:grid-cols-2">
+                    <input type="text" class="arman bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-amber-500" placeholder="Name">
+                       <input type="text" class="arman bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-amber-500" placeholder="Email">
+                          <input type="text" class="arman bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-amber-500" placeholder="Phone">
+                             <input type="text" class="arman bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-amber-500" placeholder="Company">
+
+                </div>
+                <textarea rows="4" name="" id="" class="text-black arman bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-amber-500" placeholder="Message">
+                
+                </textarea>
+                <button class="px-9 py-3 rounded-md capitailize font-bold mt-10">Send Message</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section id="footer">
+  <div class="relative">
+      <div class="container mx-auto my-10">
+        <div class="grid gap-10 md:grid-cols-3 pb-10">
+            <div class="space-y-6">
+                <h4 class="font-bold text-lg">About App</h4>
+                <p class="leading-relaxed">This Should Be Used To Tell A Story And Include Any Testimonial You Might Have About YOur Product Or Service For Your Clients </p>
+                <div class="flex gap-5 items-center">
+                    <p>Follow Us</p>
+                    <i class="fa-brands fa-facebook-f cursor-pointer hover:text-amber-500"></i>
+                    <i class="fa-brands fa-twitter cursor-pointer hover:text-amber-500"></i>
+                    <i class="fa-brands fa-youtube cursor-pointer hover:text-amber-500"></i>
+                    <i class="fa-brands fa-instagram cursor-pointer hover:text-amber-500"></i>
+                </div>
+            </div>
+            <div class="flex justify-between md:justify-around">
+               <div class="space-y-6">
+                <h4 class="font-bold text-lg">Quick Links</h4>
+                <ul class="space-y-3">
+                    <li class="underline hover:no-underline hover:text-amber-500"><a href="#">Home</a></li>
+                    
+                    <li class="underline hover:no-underline hover:text-amber-500"><a href="#">Features</a></li>
+                    <li class="underline hover:no-underline hover:text-amber-500"><a href="#">Testimonial</a></li>
+                    <li class="underline hover:no-underline hover:text-amber-500"><a href="#">Pricing</a></li>
+                    <li class="underline hover:no-underline hover:text-amber-500"><a href="#">Blog</a></li>
+                    <li class="underline hover:no-underline hover:text-amber-500"><a href="#">Contact</a></li>
+                </ul>
+               </div>
+               <div class="space-y-6">
+                <h4 class="font-bold text-lg">Quick Links</h4>
+                <ul class="space-y-3">
+                    <li class="underline hover:no-underline hover:text-amber-500"><a href="#">About Us</a></li>
+                    
+                    <li class="underline hover:no-underline hover:text-amber-500"><a href="#">Partners</a></li>
+                    <li class="underline hover:no-underline hover:text-amber-500"><a href="#">Career</a></li>
+                    <li class="underline hover:no-underline hover:text-amber-500"><a href="#">Reviews</a></li>
+                    <li class="underline hover:no-underline hover:text-amber-500"><a href="#">Terms and Conditions</a></li>
+                    <li class="underline hover:no-underline hover:text-amber-500"><a href="#">Help</a></li>
+                </ul>
+               </div>
+            </div>
+            <div class="space-y-6">
+                <h4 class="font-bold text-lg">Newsletter</h4>
+                <p class="leading-relaxed">Subscribe With Email And Loads Of News Will Be Sent To You </p>
+                <div class="flex items-center">
+                     <input type="text" class="w-3/4 text-color-gray bg-white p-2 lg:p-3 rounded-l-md:focus:outline-none" placeholder="Enter Your Email">
+                     <button type="submit" class="bg-amber-500 px-4 py-2 lg:px-5 lg:py-3 rounded-r-md hover:opacity-90 ">
+                        <i class="fa-solid fa-chevron-right"></i>
+                     </button>
+                </div>
+            </div>
+        </div>
+          <div class="flex justify-center pt-10 border-t borfer-color-gray">
+            <p>2025 And @copy LightCode.All Rights Reserved.</p>
+          </div>
+      </div>
+   </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+
+
+
+        const navbar = document.querySelector('header');
+
+       window.onscroll = () => {
+          if(window.scrollY > 100){
+            navbar.classList.add('bg-slate-950');
+            navbar.classList.add('border-b');
+            navbar.classList.add('border-color-gray');
+          } else{
+            navbar.classList.remove('bg-slate-950');
+            navbar.classList.remove('border-b');
+            navbar.classList.remove('border-color-gray');
+          }
+       }
+
+
+
+
+
+
+
+
+        const hamburger = document.querySelector('#hamburger');
+          const menu = document.querySelector('#menu');
+            const hLink = document.querySelectorAll('#hLink');
+            const faSolid = document.querySelector(".fa-solid");
+
+            hamburger.addEventListener("click", () => {
+                menu.classList.toggle('hidden');
+                faSolid.classList.toggle('fa-xmark');
+            })
+            hLink.forEach(link => {
+                link.addEventListener('click', () => {
+                     menu.classList.toggle('hidden');
+                faSolid.classList.toggle('fa-xmark');
+                })
+            })
+
+
+
+
+
+
+
+
+
+        const userTexts = document.getElementsByClassName("user-text");
+        const userPics = document.getElementsByClassName("user-pic");
+
+        function showReview() {
+            for(userPic of userPics) {
+                userPic.classList.remove("active-pic");
+            }
+            for(userText of userTexts) {
+                userText.classList.remove("active-text")
+            }
+            let i = Array.from(userPics).indexOf(event.target);
+            userPics[i].classList.add('active-pic');
+            userTexts[i].classList.add('active-text');
+        }
+
+        
+
+
+
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+  
+  
